@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Nunito+Sans:opsz@6..12&display=swap");
+
+.container {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+/* INFO */
+.info {
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+}
+
+/* LOGO */
+.logo {
+    top: 30px;
+    left: 40px;
+    position: absolute;
+}
+
+.logo img {
+    margin: 2px;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 70px;
+    top: 30px;
+    left: 240px;
+    justify-content: space-around;
+}
+
+.navbar .navigation {
+    display: flex;
+    gap: 15px;
+    font-size: .84rem;
+    align-self: flex-end;
+}
+
+.navbar .navbtn {
+    display: flex;
+    gap: 15px;
+    height: 25px;
+
+}
+
+.navbar .navbtn #btn1 {
+    height: 25px;
+    color: beige;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.navbar .navbtn #btn2 {
+    height: 25px;
+    color: black;
+    background-color: snow;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.navbar .navbtn #btn3 {
+    height: 25px;
+    color: black;
+    background-color: snow;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.tagline {
+    width: 438px;
+    height: 100px;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+}
+
+.indian_railways {
+    width: 300px;
+    height: 30px;
+
+    top: 200px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 30px;
+
+}
+
+.safety {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: #01BB0A;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.h2color {
+    color: #FB792B;
+}
+
+.h3color {
+    color: #213D77;
+}
+
+.booking {
+    display: flex;
+
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+
+    top: 246px;
+    left: 40px;
+
+    color: #14274d;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#bookticket {
+    background-color: #213D77;
+    height: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#pnr_status {
+    border: 1px solid lightgray;
+    height: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#chart_vacancy {
+    border: 1px solid lightgray;
+    height: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+
+}
+.selection {
+    width: 424px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    top: 305px;
+    left: 40px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+
+}
+.From {
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 58px;
+}
+.sign {
+    position: absolute;
+    left: 189px;
+}
+.To {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 295px;
+}
+.upper {
+    font-size: smaller;
+}
+.middle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.train_img1 {
+   align-self: center;
+   position: absolute;
+   left: 20px;
+}
+.train_img2 {
+    left: 263px;
+    align-self: center;
+    position: absolute;
+}
+.dateselection {
+    width: 424px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    top: 310px;
+    left: 40px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.calenderimg {
+    position: absolute;
+    left: 20px;
+}
+.datesel {
+    display: flex;
+    position: absolute;
+    left: 55px;
+    flex-direction: column;
+}
+.threedot {
+    position: absolute;
+    left: 175px;
+}
+.class_selection {
+    display: flex;
+    position: absolute;
+    left: 208px;
+    flex-direction: column;
+}
+.fourdot {
+    position: absolute;
+    left: 284px;
+}
+.typesel {
+    display: flex;
+    position: absolute;
+    left: 315px;
+    flex-direction: column;
+}
+
+
+.searchbtn {
+
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    margin-right: 0px;
+}
+
+.searchbtn button {
+    width: 424px;
+    height: 50px;
+    background-color: #01BB0A;
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border: 1px solid #01BB0A;
+}
+
+/* IMAGEDIV */
+.imagediv {
+    height: 600px;
+    width: 400px;
+    background-color: whitesmoke
+}
+
+.imagediv img {
+    height: 580px;
+    width: 400px;
+}

@@ -1,0 +1,43 @@
+Q2. Explain the role of the following key properties in the Flexbox layout model
+
+1. justify-content: It aligns all the items of the container described as Flex according to its main axis 
+(According to the axis mentioned in flex-direction).
+
+Property Values of justify-content are--
+Value	        Description	
+flex-start	    Default value. Items are positioned at the beginning of the container	
+flex-end	    Items are positioned at the end of the container	
+center	        Items are positioned in the center of the container	
+space-between	Items will have space between them	
+space-around	Items will have space before, between, and after them	
+space-evenly	Items will have equal space around them	
+initial	        Sets this property to its default value. Read about initial	
+inherit	        Inherits this property from its parent element.
+
+2. align-items: It aligns all the items of the container described as Flex according to its cross-axis 
+(Opposite to the axis mentioned in flex-direction).
+
+Property Values of align-items
+
+Value	    Description
+normal	    Default. Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size.	
+stretch	    Items are stretched to fit the container	
+center	    Items are positioned at the center of the container	
+flex-start	Items are positioned at the beginning of the container	
+flex-end	Items are positioned at the end of the container	
+start	    Items are positioned at the beginning of their individual grid cells, in the block direction	
+end	        Items are positioned at the end of the their individual grid cells, in the block direction	
+baseline	Items are positioned at the baseline of the container	
+initial	    Sets this property to its default value. Read about initial	
+inherit	    Inherits this property from its parent element.
+
+3. gap: The gap property defines the size of the gap between the rows and between the columns in flexbox
+
+
+4. flex-direction:  The flex-direction property is a sub-property of the Flexible Box Layout module. 
+It establishes the main-axis, thus defining the direction flex items are placed in the flex container. 
+
+
+5. flex-wrap: The CSS flex-wrap property is used to specify whether flex items are forced into a single line or 
+wrapped onto multiple lines. The flex-wrap property allows enabling the control direction in which lines are stacked. 
+It is used to designate a single line or multi-line format to flex items inside the flex container.
